@@ -1,0 +1,484 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+#full{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+body {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0;
+}
+#app {
+    
+    display: flex;
+    flex-direction: column;
+    
+
+}
+h2 {
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 2.4em;
+    line-height: 1.1;
+}
+#one,#two, #three{
+    display: flex;
+    
+    margin-left: 40px;
+}
+
+#one{
+    margin-top: 30px;
+
+}
+#two{
+    margin-top: 40px;
+}
+#three{
+    margin-top: 20px;
+}
+#photo{ 
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    object-fit: cover; 
+    border-radius: 20px;
+}
+#hello{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20%;
+    height: 90%;
+    background:#dbdbdb94; 
+    border-radius: 20px;
+    
+}
+#photo>img{
+    width: 100%;
+    height: 96%;
+}
+#hello>h3{
+    margin: 0;
+    padding: 10px;
+    font-weight: 500;
+
+}
+
+#input{
+    padding: 10px;
+    margin: 5px;
+    background: #dbdbdb94;
+}
+
+#languages{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 51%;
+    height: 90%;
+    background:#dbdbdb94;
+    border-radius: 20px;
+}
+
+#languages>div>p, #languages>div>h2{
+    padding: 7px;
+    padding-left: 20px;
+    font-size: 1.8em;
+    line-height: 1.1;
+
+}
+
+#languages>div>p{
+    margin-top: 25px;
+}
+
+#languages>div>p>span{
+    border-radius: 20px;
+    
+    background: rgba(14, 230, 97, 0.992);
+    color: rgba(14, 230, 97, 0.992);
+}
+
+
+#experience {
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background:#dbdbdb94;
+    border-radius: 20px;
+    width: 70%;
+    margin-right: 30px;
+    padding-bottom: 10px;
+    height: fit-content;
+    
+}
+
+li{
+    font-size: 1.6em;
+}
+
+#tools{
+
+    width: 20%;
+    padding-top: 20px;
+    margin-left: 30px;
+    
+    display: flex;
+    flex-direction:column ;
+    
+    background: #dbdbdb94;
+    padding: 20px;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+#tools_design{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+       
+}
+#first_block{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 34px;
+    height: fit-content;
+    background:white;
+    border-radius: 20px;
+    margin-right: 65px;
+    margin-left: 65px;
+
+
+
+}
+#tools_design>p{
+    display: inline;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #000;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+    top: 10px;
+}
+#tools_design>div>div>img{
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 19.8%;
+    
+}
+#more{
+    display: inline;
+    font-size: 1.4em;   
+    padding: 7px 9px;
+    background: #bdb84e9d;
+    color:#f1e84cee;
+    padding-left: 15px;
+    border-radius: 20px;
+    padding-right: 15px;
+    
+    
+}
+#card_one{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 5px;
+    background:  rgba(255, 255, 255, 0.87);
+    border-radius: 20px;
+}
+#card_one, #card_two:hover{
+    background: rgba(14, 230, 97, 0.992);
+    color: rgba(255, 255, 255, 0.87);
+}
+#card_three:hover{
+    background: rgba(14, 230, 97, 0.992);
+    color: rgba(255, 255, 255, 0.87);
+}
+#card_one>div>ul{
+    
+    margin-top: 40px;
+}
+
+#name_prof{
+    width: 30%;
+}
+
+#name_prof>p{
+    font-size: 1.4em;
+}
+#name_prof>h3{
+    font-size: 1.8em;
+    margin-bottom: 0;
+}
+#descripcion{
+    width: 70%;
+}
+
+#card_two{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background:  rgba(255, 255, 255, 0.87);
+    border-radius: 20px;
+
+}
+
+#card_two>div>ul{
+    margin-top: 53px;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+#card_three{
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background:  rgba(255, 255, 255, 0.87);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#card_three>div>ul
+{
+    margin-top: 53px;
+}
+
+
+
+#education{
+    margin-top: 20px;
+    padding: 10px;
+    width: 50%;
+    background:#dbdbdb94;
+    border-radius: 20px;
+    height: fit-content;
+    
+
+
+}
+#first_layer{
+    display: flex;
+    justify-content:space-between;
+    
+
+}
+
+#ui, #law{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 20px;
+    width: 44%;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    height: auto;
+    margin-right: 20px;
+}
+#heart{
+    width: 50px;
+    height: 50px;
+}
+#law{
+    margin-left: 0;
+    margin-right: 10px;
+    height: fit-content;
+}
+#ui>p{
+    padding-left: 5px;
+    font-size: 1.2em;
+}
+#law>p{
+    padding-left: 5px;
+    color: green;
+    font-size: 1.2em;
+    
+}
+#university{
+    margin-top: 20px;
+    padding-bottom: 5px;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+#ui, #law:hover{
+    background: rgba(14, 230, 97, 0.992);
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#law>p:hover{
+    color: rgba(255, 255, 255, 0.87);
+}
+#graphic_design{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 20px;
+    width: 44%;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    height: auto;
+    margin-right: 20px;
+}
+#graphic_design>p{
+    padding-left: 5px;
+    color: green;
+    font-size: 1.2em;
+}
+#graphic_design:hover{
+    background: rgba(14, 230, 97, 0.992);
+    color: rgba(255, 255, 255, 0.87);
+}
+#graphic_design>p:hover{
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#interests{
+    width: 89%;
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px ;
+    padding: 20px;
+    background: #dbdbdb94;
+    border-radius: 20px;
+    height: fit-content;
+
+}
+#interests>h2{
+    font-weight: 500;
+    padding: 0;
+    margin-top: 0;
+}
+#interests>p{
+    display: flex;
+
+}
+#interests>p>span{
+    display: inline;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.6em;
+    margin-right: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 20px;
+    line-height: normal;
+
+}
+#interests>p>span:hover
+{
+    background: rgba(14, 230, 97, 0.992);
+    font-size: 1.65em;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#contact{
+    width: 92%;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 0.87);
+    background: black;
+    border-radius: 20px;
+    height: fit-content;
+
+}
+#contact>h2{
+    font-weight: 500;
+}
+span{
+    font-size: 1.2em;
+}
+
+#button{
+    text-align: center;
+    align-self: center;
+    padding: 50px;
+    
+}
+.ripple{
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-size: 1.6em;
+    background: #000;
+    color:rgba(255, 255, 255, 0.87);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.ripple::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 50%;
+    transform: scale(1,1) translate(50%);
+    opacity: 0;
+    transform-origin: 50% 50%;
+}
+@keyframes ripple{
+    0%{
+        transform: scale(0,0);
+        opacity: 20%;
+    }
+    25%{
+        transform: scale(25,25);
+        opacity: 15%;
+    }
+    50%{
+        transform: scale(34,34);
+        opacity: 10%;
+    }
+    100%{
+        transform: scale(50,50);
+        opacity: 0%;
+    }
+}
+
+.ripple:focus::after{
+    animation: ripple 10s ease-out;
+}

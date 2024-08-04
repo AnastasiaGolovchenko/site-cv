@@ -1,0 +1,259 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 2.4em;
+    line-height: 1.1;
+}
+
+#one, #two, #three {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#photo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 180px;
+    background: #888;
+    border-radius: 20px;
+}
+
+#hello {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 180px;
+    height: 180px;
+    background: #b0b6bcf0;
+    border-radius: 20px;
+}
+
+#languages {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    height: 180px;
+    background: #b0b6bcf0;
+    border-radius: 20px;
+}
+
+#languages > div {
+    margin-top: 20px;
+}
+
+#languages > div > p {
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 1.8em;
+    line-height: 1.1;
+}
+
+#input {
+    padding: 10px;
+    margin: 5px;
+    background: #b0b6bcf0;
+}
+
+#experience {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #888;
+    border-radius: 20px;
+    width: 80%;
+}
+
+#tools {
+    width: 20%;
+    margin: 20px;
+    background: #b0b6bcf0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#more {
+    display: inline;
+    text-align: right;
+}
+
+#card_one, #card_two, #card_three {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 5px;
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 20px;
+}
+
+#card_one:hover, #card_two:hover, #card_three:hover {
+    background: rgba(14, 230, 97, 0.992);
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#card_one > div > ul, #card_two > div > ul, #card_three > div > ul {
+    margin-top: 53px;
+}
+
+#name_prof {
+    width: 30%;
+}
+
+#descripcion {
+    width: 70%;
+}
+
+#education {
+    margin-top: 20px;
+    padding: 10px;
+    width: 50%;
+    background: #888;
+    border-radius: 20px;
+}
+
+#first_layer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ui, #law {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 20px;
+    width: 50%;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    height: auto;
+}
+
+#law {
+    margin-right: 10px;
+    height: fit-content;
+}
+
+#ui > p, #law > p {
+    padding-left: 5px;
+}
+
+#university {
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+#ui:hover, #law:hover {
+    background: rgba(14, 230, 97, 0.992);
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#law > p:hover {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#graphic_design {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 20px;
+    width: 42%;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    height: auto;
+    margin-right: 20px;
+}
+
+#graphic_design > p {
+    padding-left: 5px;
+    color: green;
+}
+
+#graphic_design:hover {
+    background: rgba(14, 230, 97, 0.992);
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#graphic_design > p:hover {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#interests {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 20px;
+    background: #888;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+#interests > h2 {
+    font-weight: 500;
+    padding: 0;
+    margin-top: 0;
+}
+
+#interests > p {
+    display: flex;
+}
+
+#interests > p > span {
+    display: inline;
+    margin: 5px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 20px;
+    line-height: normal;
+}
+
+#contact {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    color: rgba(255, 255, 255, 0.87);
+    background: black;
+    border-radius: 20px;
+}
+
+#contact > h2 {
+    font-weight: 500;
+}
