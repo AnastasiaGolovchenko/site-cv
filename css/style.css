@@ -102,12 +102,18 @@ h2 {
 }
 
 #languages>div>p, #languages>div>h2{
-    padding: 7px;
+    padding: 5px;
     padding-left: 20px;
-    font-size: 1.8em;
     line-height: 1.1;
 
 }
+#languages>div>p{
+    font-size: 1.6em;
+}
+#languages>div>h2{
+    font-size: 1.8em;
+}
+
 
 #languages>div>p{
     margin-top: 10px;
