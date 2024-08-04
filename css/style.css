@@ -149,11 +149,12 @@ li{
 
     width: 20%;
     padding-top: 20px;
-    margin-left: 15px;
+    margin-left: 10px;
     
     display: flex;
     flex-direction:column ;
-    
+    padding-left: 15px;
+    padding-right: 15px;
     background: #dbdbdb94;
     padding: 20px;
     border-radius: 20px;
@@ -198,7 +199,7 @@ li{
     padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 30%;
+    width: 35%;
     
 }
 #more{
