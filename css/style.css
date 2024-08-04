@@ -121,7 +121,7 @@ h2 {
 
 #languages>div>p>span{
     border-radius: 20px;
-    
+    font-size: 1.0em;
     background: rgba(14, 230, 97, 0.992);
     color: rgba(14, 230, 97, 0.992);
 }
