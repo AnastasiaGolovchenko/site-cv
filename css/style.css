@@ -95,7 +95,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 45%;
+    width: 47%;
     height: 90%;
     background:#dbdbdb94;
     border-radius: 20px;
@@ -153,8 +153,8 @@ li{
     
     display: flex;
     flex-direction:column ;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     background: #dbdbdb94;
     padding: 20px;
     border-radius: 20px;
