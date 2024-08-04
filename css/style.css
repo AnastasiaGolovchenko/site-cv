@@ -95,7 +95,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 47%;
+    width: 51%;
     height: 90%;
     background:#dbdbdb94;
     border-radius: 20px;
@@ -197,9 +197,9 @@ li{
 }
 #tools_design>div>div>img{
     padding: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 35%;
     
 }
 #more{
@@ -375,7 +375,7 @@ p{
 }
 
 #interests{
-    width: 91%;
+    width: 89%;
     
     display: flex;
     flex-direction: column;
@@ -416,7 +416,7 @@ p{
 }
 
 #contact{
-    width: 95%;
+    width: 92%;
     padding-left: 10px;
     padding-top: 10px;
     margin-top: 20px;
