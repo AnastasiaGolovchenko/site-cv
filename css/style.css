@@ -147,7 +147,7 @@ li{
 
 #tools{
 
-    width: 25%;
+    width: 20%;
     padding-top: 20px;
     margin-left: 10px;
     margin-right: 20px;
@@ -197,9 +197,9 @@ li{
 }
 #tools_design>div>div>img{
     padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 24%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
     
 }
 #more{
