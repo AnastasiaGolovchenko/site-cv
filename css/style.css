@@ -158,7 +158,7 @@ li{
     background: #dbdbdb94;
     padding: 20px;
     border-radius: 20px;
-    height: fit-content;
+    height: 100%;
 }
 
 #tools_design{
@@ -201,7 +201,7 @@ li{
     padding-left: 20px;
     padding-right: 20px;
     width: 20%;
-    height: auto;
+   
     
 }
 #more{
