@@ -95,7 +95,8 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 47%;
+    margin-right: 30px;
+    width: 49%;
     height: 90%;
     background:#dbdbdb94;
     border-radius: 20px;
