@@ -4,3 +4,6 @@
 Установка
 1. Клонируйте репозиторий:
  git clone https://github.com/AnastasiaGolovchenko/site-cv
+2. Установите зависимости:
+ cd путь, где находится проект
+npm install install jspdf html2canvas
